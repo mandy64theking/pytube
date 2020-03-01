@@ -6,3 +6,4 @@ def foobart(URL,type):
     else :
         k=vid.getbestaudio()
     k.download('test.'+k.extension)
+    return(k.extension)

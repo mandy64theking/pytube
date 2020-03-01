@@ -2,23 +2,39 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../static/style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="Pytube is a Youtube Video and Audio Downloader" />
     <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Pytube Youtube Downloader</title>
 </head>
 
 <body>
-    <form method='POST'>
-        <input type="url" name="link" id="link" placeholder="Youtube Link" />
-        <select id="type" name="type">
-            <option value="Video" selected>Video</option>
-            <option value="Audio">Audio</option>
-        </select>
-        <input type="submit" />
-    </form>
+    <header>
+        <div class="head-main">
+            <h1>Pytube</h1>
+        </div>
+
+    </header>
+    <section class="presentation">
+        <form method='POST' class="form-inline">
+            <div class="input1"><input type="url" name="link" id="link" class="form-control"
+                    placeholder="Youtube Link" />
+            </div>
+            <div class="input2"><select id="type" name="type" class="form-control">
+                    <option value="Video" selected>Video</option>
+                    <option value="Audio">Audio</option>
+                </select></div>
+            <div class="input3">
+                <input type="submit" class="btn btn-primary mb-2" />
+            </div>
+        </form>
+    </section>
 </body>
 
 </html>

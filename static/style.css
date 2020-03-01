@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+header{
+    display : flex;
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+.linker{
+    align-items:center;
+}
+.head-main{
+    margin: auto;
+    display : flex;
+    align-items:center;
+}
+.presentation{
+    margin:auto;
+    width: 30%;
+    height: 50vh;
+    align-self: auto;
+}
+.input1,input2,input3{
+    display: flex;
+}
+.input1{
+    flex:4;
+}
+.input2{
+    flex:2;
+}
+.input3{
+    flex:1;
+}
